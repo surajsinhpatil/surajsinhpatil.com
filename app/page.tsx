@@ -82,7 +82,7 @@ export default function Home() {
             </h1>
 
             <h2 className="mt-6 text-xl md:text-2xl text-zinc-300 leading-relaxed">
-              Software Engineer | Algorithms | Distributed Systems | Applied ML
+              Software Engineer | Distributed Systems | Algorithms | Applied ML
             </h2>
 
             <p className="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
