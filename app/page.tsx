@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Particles from "./components/particles";
+import { Card } from "./components/card";
 
 const skills = {
   backend: ["Java", "Python", "C++", "REST APIs", "gRPC"],
@@ -67,6 +68,7 @@ export default function Home() {
 
       {/* HERO */}
       <div className="hidden w-screen h-px md:block animate-glow bg-gradient-to-r from-zinc-300/0 via-zinc-300/30 to-zinc-300/0" />
+      <card>
       <section className="max-w-7xl mx-auto px-6 py-24 md:py-32">
         <div className="grid md:grid-cols-2 gap-14 items-center">
           <div className="animate-fade-in">
@@ -128,6 +130,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </card>
       <div className="hidden w-screen h-px md:block animate-glow bg-gradient-to-r from-zinc-300/0 via-zinc-300/30 to-zinc-300/0" />
 
       {/* ABOUT */}
@@ -174,6 +177,7 @@ export default function Home() {
       </section>
 
       {/* SKILLS */}
+      <card>
       <section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900">
         <h3 className="text-3xl font-bold mb-10">Skills</h3>
 
@@ -183,8 +187,10 @@ export default function Home() {
           <SkillCard title="Machine Learning" items={skills.ml} />
         </div>
       </section>
+      </card>
 
       {/* EXPERIENCE */}
+      <card>
 <section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900">
   <h3 className="text-3xl font-bold mb-10">Experience</h3>
 
@@ -216,11 +222,13 @@ export default function Home() {
     </div>
   </div>
 </section>
+      </card>
 
       {/* CONTACT */}
       <section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900 pb-24">
         <h3 className="text-3xl font-bold mb-8">Contact</h3>
 
+        <card>
         <div className="flex flex-wrap gap-4">
           <a
             href="mailto:h20250058@pilani.bits-pilani.ac.in"
@@ -247,6 +255,7 @@ export default function Home() {
             LinkedIn
           </a>
         </div>
+        </card>
       </section>
     </div>
   );
