@@ -30,7 +30,7 @@ export default function Home() {
     <div className="relative min-h-screen bg-black text-white overflow-x-hidden isolate">
       <Particles
         className="absolute inset-0 -z-0 animate-fade-in"
-        quantity={180}
+        quantity={250}
       />
 
       {/* NAV */}
