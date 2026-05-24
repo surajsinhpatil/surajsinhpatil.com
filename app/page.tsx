@@ -42,12 +42,13 @@ export default function Home() {
             <Link href="/projects" className="hover:text-white transition">
               Projects
             </Link>
-            <a href="/resume.pdf" target="_blank" className="hover:text-white transition">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               Resume
             </a>
             <a
               href="https://github.com/surajsinhpatil"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-white transition"
             >
               GitHub
@@ -55,6 +56,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/surajpatil12/"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-white transition"
             >
               LinkedIn
