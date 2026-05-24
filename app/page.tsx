@@ -45,7 +45,7 @@ export default function Home() {
               Projects
             </Link>
             <a href="/Surajsinh_Patil_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-              Résumé
+              Resume
             </a>
             <a
               href="https://github.com/surajsinhpatil"
@@ -94,7 +94,7 @@ export default function Home() {
     target="_blank"
     className="px-8 py-4 bg-white text-black rounded-xl font-medium hover:opacity-90 transition"
   >
-    Résumé
+    Resume
   </a>
 
   <Link
