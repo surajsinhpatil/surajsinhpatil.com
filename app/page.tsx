@@ -45,7 +45,7 @@ export default function Home() {
               Projects
             </Link>
             <a href="/Surajsinh_Patil_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-              Resume
+              Résumé
             </a>
             <a
               href="https://github.com/surajsinhpatil"
