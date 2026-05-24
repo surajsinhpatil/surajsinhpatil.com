@@ -5,20 +5,21 @@ import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://surajsinhpatil.com"),
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Surajsinh Patil",
+    template: "%s | Surajsinh Patil",
   },
-  description: "Co-founder of unkey.com",
+  description: "Software Engineer | Machine Learning Researcher | Distributed Systems Enthusiast",
   openGraph: {
-    title: "chronark.com",
+    title: "Surajsinh Patil",
     description:
-      "Co-founder of unkey.com",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "BITS Pilani computer science graduate student building scalable backend systems and explainable AI solutions.",
+    url: "https://surajsinhpatil.com",
+    siteName: "Surajsinh Patil",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://surajsinhpatil.com/og.png",
         width: 1920,
         height: 1080,
       },
