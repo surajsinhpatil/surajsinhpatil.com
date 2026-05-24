@@ -35,8 +35,8 @@ export default function Home() {
 
       {/* NAV */}
       <nav className="sticky top-0 z-50 border-b border-zinc-800 bg-black/70 backdrop-blur">
-        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-          <h1 className="text-lg font-semibold tracking-wide">Surajsinh Patil</h1>
+        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-end">
+          
 
           <div className="flex gap-6 text-sm text-zinc-400">
             <Link href="/projects" className="hover:text-white transition">
