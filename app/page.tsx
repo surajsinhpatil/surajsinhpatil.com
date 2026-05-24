@@ -88,30 +88,29 @@ export default function Home() {
             <p className="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
             Final-year M.E. Computer Science student at BITS Pilani focused on distributed systems, backend engineering, and practical machine learning for real-world applications.            </p>
 
-            <div className="mt-10 flex flex-wrap gap-4">
-              <Link
-                href="/projects"
-                className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:opacity-90 transition"
-              >
-                View Projects
-              </Link>
+            <div className="mt-10 flex gap-4">
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    className="px-8 py-4 bg-white text-black rounded-xl font-medium hover:opacity-90 transition"
+  >
+    Résumé
+  </a>
 
-              <a
-                href="/Surajsinh_Patil_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
-              >
-                Résumé
-              </a>
+  <Link
+    href="/projects"
+    className="px-8 py-4 border border-zinc-700 rounded-xl hover:border-zinc-500 transition"
+  >
+    View Projects
+  </Link>
 
-              <a
-                href="mailto:h20250058@pilani.bits-pilani.ac.in"
-                className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
-              >
-                Contact
-              </a>
-            </div>
+  <a
+    href="mailto:yourmail@gmail.com"
+    className="px-8 py-4 border border-zinc-700 rounded-xl hover:border-zinc-500 transition"
+  >
+    Contact
+  </a>
+</div>
           </div>
 
           <div className="flex justify-center md:justify-end">
