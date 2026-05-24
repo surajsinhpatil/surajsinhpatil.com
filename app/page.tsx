@@ -102,7 +102,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
               >
-                Resume
+                Résumé
               </a>
 
               <a
