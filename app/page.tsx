@@ -27,10 +27,10 @@ const projects = [
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-x-hidden">
+    <div className="relative min-h-screen bg-black text-white overflow-x-hidden isolate">
       <Particles
-        className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={120}
+        className="absolute inset-0 -z-0 animate-fade-in"
+        quantity={180}
       />
 
       {/* NAV */}
