@@ -86,8 +86,7 @@ export default function Home() {
             </h2>
 
             <p className="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
-              Final-year M.E. Computer Science student at BITS Pilani with a strong focus on building scalable software systems and delivering practical engineering solutions.
-            </p>
+            Final-year M.E. Computer Science student at BITS Pilani focused on distributed systems, backend engineering, and practical machine learning for real-world applications.            </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
