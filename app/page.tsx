@@ -42,7 +42,7 @@ export default function Home() {
             <Link href="/projects" className="hover:text-white transition">
               Projects
             </Link>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            <a href="/Surajsinh_Patil_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               Resume
             </a>
             <a
@@ -96,7 +96,7 @@ export default function Home() {
               </Link>
 
               <a
-                href="/resume.pdf"
+                href="/Surajsinh_Patil_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
