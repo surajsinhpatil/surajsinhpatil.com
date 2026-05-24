@@ -34,7 +34,7 @@ export default function Home() {
       />
 
       {/* NAV */}
-      <nav className="sticky top-0 z-50 border-b border-zinc-800 bg-black/70 backdrop-blur">
+      <nav className="relative z-50 border-b border-zinc-800 bg-black/70 backdrop-blur animate-fade-in">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-end">
           
 
