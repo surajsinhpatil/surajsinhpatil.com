@@ -185,19 +185,37 @@ export default function Home() {
       </section>
 
       {/* EXPERIENCE */}
-      <section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900">
-        <h3 className="text-3xl font-bold mb-10">Experience</h3>
+<section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900">
+  <h3 className="text-3xl font-bold mb-10">Experience</h3>
 
-        <div className="border border-zinc-800 rounded-3xl p-8">
-          <h4 className="text-2xl font-semibold">Teaching Assistant — Machine Learning</h4>
-          <p className="text-zinc-500 mt-2">BITS Pilani</p>
+  <div className="space-y-8">
+    <div className="border border-zinc-800 rounded-3xl p-8">
+      <h4 className="text-2xl font-semibold">
+        Teaching Assistant — Machine Learning
+      </h4>
+      <p className="text-zinc-500 mt-2">BITS Pilani</p>
 
-          <p className="text-zinc-400 mt-6 leading-relaxed">
-            Supported implementation, experimentation, and evaluation of machine learning workflows
-            while assisting students with applied machine learning concepts.
-          </p>
-        </div>
-      </section>
+      <p className="text-zinc-400 mt-6 leading-relaxed">
+        Supported implementation, experimentation, and evaluation of machine learning workflows,
+        assisting students with applied machine learning concepts, model development,
+        and experimental analysis.
+      </p>
+    </div>
+
+    <div className="border border-zinc-800 rounded-3xl p-8">
+      <h4 className="text-2xl font-semibold">
+        Teaching Assistant — Computer Networks
+      </h4>
+      <p className="text-zinc-500 mt-2">BITS Pilani</p>
+
+      <p className="text-zinc-400 mt-6 leading-relaxed">
+        Conducted lab sessions for the complete Computer Networks curriculum,
+        guiding students through practical implementation of networking concepts,
+        protocol analysis, and systems-level problem solving.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* CONTACT */}
       <section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900 pb-24">
