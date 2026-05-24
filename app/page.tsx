@@ -72,7 +72,7 @@ export default function Home() {
               Software Engineer
             </p>
 
-            <h1 className="mt-6 py-3 text-5xl md:text-7xl font-bold leading-tight text-transparent bg-white bg-clip-text animate-title">
+            <h1 className="mt-6 py-3 text-5xl md:text-7xl font-bold leading-tight text-transparent bg-white bg-clip-text animate-title animate-fade-in">
             Surajsinh Patil
             </h1>
 
@@ -96,6 +96,7 @@ export default function Home() {
               <a
                 href="/resume.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
               >
                 Resume
@@ -119,7 +120,7 @@ export default function Home() {
                 alt="Surajsinh Patil"
                 width={420}
                 height={420}
-                className="relative rounded-3xl border border-zinc-800 shadow-2xl"
+                className="relative rounded-3xl border border-zinc-800 shadow-2xl animate-fade-in"
               />
             </div>
           </div>
@@ -211,6 +212,7 @@ export default function Home() {
           <a
             href="https://github.com/surajsinhpatil"
             target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
           >
             GitHub
@@ -219,6 +221,7 @@ export default function Home() {
           <a
             href="https://www.linkedin.com/in/surajpatil12/"
             target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
           >
             LinkedIn
