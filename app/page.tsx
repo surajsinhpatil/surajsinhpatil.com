@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen bg-black text-white overflow-x-hidden">
       <Particles
-        className="absolute inset-0 -z-10"
+        className="absolute inset-0 -z-10 animate-fade-in"
         quantity={120}
       />
 
@@ -64,15 +64,16 @@ export default function Home() {
       </nav>
 
       {/* HERO */}
+      <div className="hidden w-screen h-px md:block animate-glow bg-gradient-to-r from-zinc-300/0 via-zinc-300/30 to-zinc-300/0" />
       <section className="max-w-7xl mx-auto px-6 py-24 md:py-32">
         <div className="grid md:grid-cols-2 gap-14 items-center">
-          <div>
+          <div className="animate-fade-in">
             <p className="text-zinc-500 uppercase tracking-[0.25em] text-xs">
               Software Engineer
             </p>
 
-            <h1 className="mt-6 text-5xl md:text-7xl font-bold leading-tight">
-              Surajsinh Patil
+            <h1 className="mt-6 py-3 text-5xl md:text-7xl font-bold leading-tight text-transparent bg-white bg-clip-text animate-title">
+            Surajsinh Patil
             </h1>
 
             <h2 className="mt-6 text-xl md:text-2xl text-zinc-300 leading-relaxed">
@@ -124,6 +125,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="hidden w-screen h-px md:block animate-glow bg-gradient-to-r from-zinc-300/0 via-zinc-300/30 to-zinc-300/0" />
 
       {/* ABOUT */}
       <section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900">
