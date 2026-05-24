@@ -82,12 +82,11 @@ export default function Home() {
             </h1>
 
             <h2 className="mt-6 text-xl md:text-2xl text-zinc-300 leading-relaxed">
-              Software Engineer | Machine Learning Researcher | Distributed Systems Enthusiast
+              Software Engineer | Algorithms | Distributed Systems | Applied ML
             </h2>
 
             <p className="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
-              BITS Pilani computer science graduate student building scalable backend systems
-              and explainable AI solutions.
+              Final-year M.E. Computer Science student at BITS Pilani with a strong focus on building scalable software systems and delivering practical engineering solutions.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -141,16 +140,13 @@ export default function Home() {
         <h3 className="text-3xl font-bold mb-8">About</h3>
 
         <p className="max-w-4xl text-zinc-400 text-lg leading-relaxed">
-          I’m a Computer Science graduate student at BITS Pilani with a strong focus on backend
-          engineering, distributed systems, and applied machine learning.
+            I’m a Computer Science graduate student at BITS Pilani focused on building scalable backend systems and intelligent software for real-world applications.
           <br />
           <br />
-          My work spans fault-tolerant distributed architectures, consensus-based system design,
-          and interpretable AI systems for real-world applications.
+            My experience spans distributed systems, fault-tolerant architecture design, networking, and applied machine learning, with projects ranging from consensus-driven distributed platforms to explainable computer vision systems.
           <br />
           <br />
-          I enjoy solving complex engineering problems where system reliability, scalability,
-          and practical impact matter.
+            I’m particularly interested in engineering reliable systems where performance, scalability, and practical impact matter.
         </p>
       </section>
       </Spotlight>
