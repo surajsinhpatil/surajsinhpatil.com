@@ -74,7 +74,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-14 items-center">
           <div className="animate-fade-in">
             <p className="text-zinc-500 uppercase tracking-[0.25em] text-xs">
-              Software Engineer
+              BITS PILANI • M.E. COMPUTER SCIENCE 27'
             </p>
 
             <h1 className="mt-6 py-3 text-5xl md:text-7xl font-bold leading-tight text-transparent bg-white bg-clip-text animate-title animate-fade-in">
