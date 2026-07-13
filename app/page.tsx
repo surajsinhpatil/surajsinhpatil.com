@@ -90,7 +90,7 @@ export default function Home() {
 
             <div className="mt-10 flex gap-4">
   <a
-    href="/resume.pdf"
+    href="/Surajsinh_Patil_Resume.pdf"
     target="_blank"
     className="px-8 py-4 bg-white text-black rounded-xl font-medium hover:opacity-90 transition"
   >
@@ -105,7 +105,7 @@ export default function Home() {
   </Link>
 
   <a
-    href="mailto:yourmail@gmail.com"
+    href="mailto:h20250058@pilani.bits-pilani.ac.in"
     className="px-8 py-4 border border-zinc-700 rounded-xl hover:border-zinc-500 transition"
   >
     Contact
