@@ -95,7 +95,7 @@ export default function Home() {
             <p className="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
             Final-year M.E. Computer Science student at BITS Pilani focused on distributed systems, backend engineering, and practical machine learning for real-world applications.            </p>
 
-            <div className="mt-10 flex gap-4">
+            <div className="mt-10 flex flex-wrap gap-4">
   <a
     href="/Surajsinh_Patil_Resume.pdf"
     target="_blank"
@@ -129,7 +129,7 @@ export default function Home() {
                 alt="Surajsinh Patil"
                 width={420}
                 height={420}
-                className="relative rounded-3xl border border-zinc-800 shadow-2xl animate-fade-in"
+                className="relative w-full max-w-[420px] h-auto rounded-3xl border border-zinc-800 shadow-2xl animate-fade-in"
               />
             </div>
           </div>
