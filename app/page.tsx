@@ -12,6 +12,13 @@ const skills = {
 
 const projects = [
   {
+    title: "Mini Coding Platform",
+    subtitle: "Full-Stack • Online Judge • C++ Execution",
+    description:
+      "A LeetCode-style online coding judge that compiles, runs, and evaluates C++ submissions against hidden test cases, with a live demo deployed on Vercel, Render, and Neon.",
+    link: "/projects",
+  },
+  {
     title: "Explainable Banana Leaf Disease Diagnosis",
     subtitle: "Vision-Language Models • Explainable AI • Computer Vision",
     description:
@@ -154,7 +161,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-6 py-20 border-t border-zinc-900">
         <h3 className="text-3xl font-bold mb-10">Featured Projects</h3>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project) => (
             <Link
               key={project.title}
